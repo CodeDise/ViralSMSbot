@@ -23,7 +23,7 @@ APP_ID = int(os.environ.get("APP_ID", "26944587" )) #Your API ID from my.telegra
 API_HASH = os.environ.get("API_HASH", "7261a455f2a6159b8a2fbfecd1a63004") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003015545798")) #Your db channel Id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003798080193")) #Your db channel Id
 OWNER = os.environ.get("OWNER", "ᴅɪᴀʙʟᴏ") # Owner username without @
 OWNER_ID = int(os.environ.get("OWNER_ID", "7252834931")) # Owner id
 #--------------------------------------------
@@ -36,15 +36,15 @@ FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "20"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "7a541402aeacbdbff361696add89bce2cf8afa4e")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
-START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/a50289c5498b92716ad1c-bc8e98ac70fd9539a6.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/eb60dc67795c52efd5f1b-4600a893c5dc69792e.jpg")
+START_PIC = os.environ.get("START_PIC", "https://i.ibb.co/202j2n8y/x.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://i.ibb.co/ynpvJGKN/x.jpg")
 
 #--------------------------------------------
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "nowshort.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "e3b32859bdb46cc11255422458f8e433d8176911")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/How_To_open_nowshort")
 SHORT_MSG = "<b>⌯ Here is Your Download Link, Must Watch Tutorial Before Clicking On Download...</b>"
-SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://i.ibb.co/c5GRpjv/x.jpg")
+SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://i.ibb.co/mC1vCKyv/x.jpg")
 #--------------------------------------------
 
 #--------------------------------------------
@@ -97,13 +97,13 @@ SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/diablovolfir0")
 #--------------------------------------------
 #Time and its price
 #7 Days
-PRICE1 = os.environ.get("PRICE1", "79 rs")
+PRICE1 = os.environ.get("PRICE1", "49 rs")
 #1 Month
-PRICE2 = os.environ.get("PRICE2", "249 rs")
+PRICE2 = os.environ.get("PRICE2", "99 rs")
 #3 Month
-PRICE3 = os.environ.get("PRICE3", "349 rs")
+PRICE3 = os.environ.get("PRICE3", "249 rs")
 #6 Month
-PRICE4 = os.environ.get("PRICE4", "549 rs")
+PRICE4 = os.environ.get("PRICE4", "449 rs")
 #1 Year
 PRICE5 = os.environ.get("PRICE5", "999 rs")
 
