@@ -18,7 +18,7 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7975200182:AAFGqeY8n0Ji5uUsaB4ISB8u3z0Y5525RJ8")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8337232989:AAECgnfnYBgJbQeMLdVZbBvi4HcaTAeymao")
 APP_ID = int(os.environ.get("APP_ID", "26944587" )) #Your API ID from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "7261a455f2a6159b8a2fbfecd1a63004") #Your API Hash from my.telegram.org
 #--------------------------------------------
@@ -29,8 +29,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "7252834931")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8000")
 #--------------------------------------------
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://kojar29650:h8jvNvpyteVB8AzM@cluster0.uywzxza.mongodb.net/?retryWrites=true&w=majority&appName=yorha")
-DB_NAME = os.environ.get("DATABASE_NAME", "yorha")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://kojar29650:h8jvNvpyteVB8AzM@cluster0.uywzxza.mongodb.net/?retryWrites=true&w=majority&appName=ViralSMSbot")
+DB_NAME = os.environ.get("DATABASE_NAME", "ViralSMSbot")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "20"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "7a541402aeacbdbff361696add89bce2cf8afa4e")
